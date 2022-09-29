@@ -60,7 +60,7 @@ while [[ $# -gt 0 ]]; do
       shift
       ;;
     --disksize)
-      _disk_size=$2
+      _disk_size=$4
       shift
       ;;
     --hostname)
@@ -72,7 +72,7 @@ while [[ $# -gt 0 ]]; do
       shift
       ;;
     --storage)
-      _storage=$4
+      _storage=$2
       shift
       ;;
     --templates)
